@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComicCraft - AI Comic Story Creator</title>
+</head>
+<body>
+
+    <h1>🎨 ComicCraft</h1>
+    <h2>AI Comic Story Creator</h2>
+
+    <p>Create your own comic story using AI!</p>
+
+    <form method="post" action="/create-comic">
+
+        <label for="story">Enter your story idea:</label>
+        <br><br>
+
+        <textarea
+            id="story"
+            name="story"
+            rows="8"
+            cols="50"
+            placeholder="Example: A little cat goes on an adventure..."
+            required
+        ></textarea>
+
+        <br><br>
+
+        <button type="submit">Create Comic</button>
+
+    </form>
+
+</body>
+</html>
